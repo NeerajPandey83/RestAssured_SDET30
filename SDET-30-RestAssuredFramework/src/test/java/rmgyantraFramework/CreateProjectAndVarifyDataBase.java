@@ -40,7 +40,7 @@ public class CreateProjectAndVarifyDataBase extends BaseAPIcLASS {
 		
 		
 		String query = "select* from project";
-		String value = dLib.executeQueryAndGetData(query, expData, 0);
+		String value = dLib.executeQueryAndGetData(query, expData, 1);
 		System.out.println(value);
 		System.out.println("data succesfull varify in database");
 		      
